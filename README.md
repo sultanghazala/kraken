@@ -1,20 +1,10 @@
-# Reproducible analysis example - R
-
-This is an example project repository to illustrate what a reproducible analysis might look like as discussed in more detail in the [Reproducibility in Cancer Informatics course](https://github.com/jhudsl/Reproducibility_in_Cancer_Informatics).  
-It can be used as a template or otherwise borrowed from.
-
-_This example analysis:_  
+Analysis includes:_  
 
 - Downloads [data from refine.bio](https://www.refine.bio/experiments/SRP070849/combination-targeted-therapy-to-disrupt-aberrant-oncogenic-signaling-and-reverse-epigenetic-dysfunction-in-idh2-and-tet2-mutant-acute-myeloid-leukemia-rna-seq) using the [refine.bio python API client](https://github.com/AlexsLemonade/refinebio-py).
 - Identifies the top 90th percentile variant genes from the set.
 - Creates and saves a heatmap from those genes.
 
 It also has its own Docker image and GitHub actions to aid reproducibility.
-
-## Requirements
-
-To run this analysis you will need [`git`](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [`Docker`](https://docs.docker.com/get-docker/) installed on your computer.
-These are two platforms that are very useful for reproducibility so they will be useful for you far beyond this repository.
 
 ## How to run the analysis
 
